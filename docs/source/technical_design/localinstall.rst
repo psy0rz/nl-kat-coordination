@@ -82,7 +82,12 @@ In some cases this may not work because Docker does not yet know your user name.
 	$ sudo gpasswd -a $USER docker
 	$ newgrp docker
 
-Then OpenKAT is built, including all the parts such as Octopoes and Rocky.
+Then OpenKAT is built, including all the parts such as Octopoes and Rocky. 
+
+Front end
+*********
+
+Find the frontend of your OpenKAT install at port 8000 or 8443 of your localhost and follow the 'on boarding flow' to test your setup and start using your development setup of OpenKAT.
 
 Specific builds
 ***************
